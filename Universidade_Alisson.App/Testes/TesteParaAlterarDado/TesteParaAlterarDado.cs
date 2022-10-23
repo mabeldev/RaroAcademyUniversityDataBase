@@ -9,7 +9,7 @@ using Universidade.Extensoes;
 namespace Testes;
 
 [TestClass]
-public class TesteParaAleterarDado
+public class TesteParaAlterarDado
 {
     public readonly IAlunoRepositorio _alunoRepositorio;
     public readonly ICursoDisciplinaRepositorio _cursoDisciplinaRepositorio;
@@ -23,7 +23,7 @@ public class TesteParaAleterarDado
     public readonly ITitulacaoRepositorio _titulacaoRepositorio;
     public readonly DateTime _dataAlteracao = DateTime.Now;   
 
-    public TesteParaAleterarDado()
+    public TesteParaAlterarDado()
     {
         _alunoRepositorio = InjectionDependency.Provider().GetService<IAlunoRepositorio>();
         _cursoRepositorio = InjectionDependency.Provider().GetService<ICursoRepositorio>();
