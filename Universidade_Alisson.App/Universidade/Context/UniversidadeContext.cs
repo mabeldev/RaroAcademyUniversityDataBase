@@ -19,7 +19,7 @@ namespace Universidade.Context
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer( "Server=44.199.200.211, 3309; Database=universidade_alisson_silva; User=alisson_silva; Password=ugaXvPK8ZWu3JQsw5jcN");
+            optionsBuilder.UseSqlServer( "HideInfformattion");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
